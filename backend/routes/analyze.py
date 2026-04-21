@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from models.detector import detect_disease
-from database.db import save_analysis
+from database.database import save_analysis
 import uuid, time
 
 router = APIRouter()

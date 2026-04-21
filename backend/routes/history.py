@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from database.db import get_all_analyses
+from database.database import get_all_analyses
 
 router = APIRouter()
 
